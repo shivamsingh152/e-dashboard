@@ -1,0 +1,106 @@
+body{
+  background-color:#e5f3ff;
+}
+.nav-ul{
+  padding: 5px;
+  margin: 0;
+  background-color: black;
+}
+.nav-ul li{
+   display:inline-block;
+   padding: 10px;
+}
+.nav-ul a{
+   padding: 5px;
+   text-decoration: none;
+   color: whitesmoke;
+   font-weight: 500;
+}
+.nav-ul a:hover{
+  color: blue;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: white;
+}
+.input{
+  display: block;
+  margin: 30px;
+  padding: 10px;
+  width: 40%;
+  border: 2px solid;
+  border-style: inset;
+}
+.inputbox{
+  margin-left: 30%;
+}
+.input:hover{
+  background-color: beige;
+}
+.btn{
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: whitesmoke;
+  color: crimson;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: black;
+  color: blue;
+}
+.nav-right{
+  text-align: right;
+}
+.logo{
+  width: 45px;
+  float: left;
+  border-radius: 50%;
+  margin-top: 3px;
+  margin-left: 20px;
+}
+.invalidinput{
+      color: red;
+      margin-top: -30px;
+      display: block;
+      margin-left: 30px;
+}
+label{
+      color: crimson;
+      display: block;
+      margin-left: 30px;
+}
+.product-list{
+  text-align: center;
+  margin-top: 50px;
+}
+.product-list ul li{
+  display: inline-block;
+  border:  1px solid floralwhite;
+  padding: 5px;
+  width: 150px;
+  background-color: white;
+}
+.product-list ul{
+  margin: 0;
+}
+.ul-list{
+   font-weight:500;
+   color: black;
+}
+.li-list{
+  font-weight:400;
+  color: gray;
+}
+.search-list{
+  width: 150px;
+  height: 20px;
+  margin-top: 20px;
+  margin-left: 80%;
+  padding-left: 30px;
+  border: 1px solid green;
+}
+
