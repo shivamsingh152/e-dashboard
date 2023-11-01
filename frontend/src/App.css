@@ -1,32 +1,40 @@
-body{
-  background-color:#e5f3ff;
+body {
+  background-color: #e5f3ff;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-.nav-ul{
+
+.nav-ul {
   padding: 5px;
   margin: 0;
   background-color: black;
+  width: auto;
 }
-.nav-ul li{
-   display:inline-block;
-   padding: 10px;
+.nav-ul li {
+  display: inline-block;
+  padding: 10px;
 }
-.nav-ul a{
-   padding: 5px;
-   text-decoration: none;
-   color: whitesmoke;
-   font-weight: 500;
+.nav-ul a {
+  padding: 5px;
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: 500;
 }
-.nav-ul a:hover{
+.nav-ul a:hover {
   color: blue;
 }
-.footer{
+.footer {
   position: absolute;
   bottom: 0;
   text-align: center;
   width: 100%;
   background-color: white;
 }
-.input{
+.input {
   display: block;
   margin: 30px;
   padding: 10px;
@@ -34,13 +42,13 @@ body{
   border: 2px solid;
   border-style: inset;
 }
-.inputbox{
+.inputbox {
   margin-left: 30%;
 }
-.input:hover{
+.input:hover {
   background-color: beige;
 }
-.btn{
+.btn {
   margin: 25px;
   padding: 10px;
   width: 150px;
@@ -48,54 +56,54 @@ body{
   color: crimson;
   cursor: pointer;
 }
-.btn:hover{
+.btn:hover {
   background-color: black;
   color: blue;
 }
-.nav-right{
+.nav-right {
   text-align: right;
 }
-.logo{
+.logo {
   width: 45px;
   float: left;
   border-radius: 50%;
   margin-top: 3px;
   margin-left: 20px;
 }
-.invalidinput{
-      color: red;
-      margin-top: -30px;
-      display: block;
-      margin-left: 30px;
+.invalidinput {
+  color: red;
+  margin-top: -30px;
+  display: block;
+  margin-left: 30px;
 }
-label{
-      color: crimson;
-      display: block;
-      margin-left: 30px;
+label {
+  color: crimson;
+  display: block;
+  margin-left: 30px;
 }
-.product-list{
+.product-list {
   text-align: center;
   margin-top: 50px;
 }
-.product-list ul li{
+.product-list ul li {
   display: inline-block;
-  border:  1px solid floralwhite;
+  border: 1px solid floralwhite;
   padding: 5px;
   width: 150px;
   background-color: white;
 }
-.product-list ul{
+.product-list ul {
   margin: 0;
 }
-.ul-list{
-   font-weight:500;
-   color: black;
+.ul-list {
+  font-weight: 500;
+  color: black;
 }
-.li-list{
-  font-weight:400;
+.li-list {
+  font-weight: 400;
   color: gray;
 }
-.search-list{
+.search-list {
   width: 150px;
   height: 20px;
   margin-top: 20px;
@@ -103,4 +111,3 @@ label{
   padding-left: 30px;
   border: 1px solid green;
 }
-
